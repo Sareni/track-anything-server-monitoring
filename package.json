@@ -1,0 +1,24 @@
+{
+  "name": "track-anything-server-monitoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sareni/track-anything-server-monitoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sareni/track-anything-server-monitoring/issues"
+  },
+  "homepage": "https://github.com/Sareni/track-anything-server-monitoring#readme",
+  "dependencies": {
+    "diskusage": "^1.1.3",
+    "os-utils": "^0.0.14",
+    "track-anything": "file:../track-anything"
+  }
+}
